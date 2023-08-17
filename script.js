@@ -2,11 +2,11 @@ function randomValueFromArray(array) {
     return array[Math.floor(Math.random() * array.length)];
   }
   
-  var storyText = "Once upon a time, there was a :insertx: named :inserty:. :inserty: was a very :insertz: :insertx:. One day, :inserty: decided to go on an adventure. :inserty: traveled to a faraway land, where :he/she: met a :insertz: :insertx:. The two :insertx:s became friends and had many :insertz: adventures together.";
+  var storyText = "Once upon a time, there was a :insertx: named :inserty:. :inserty: was a passionate Software Developer with a :insertz: spirit. One day, :inserty: decided to embark on a development marathon journey. :inserty: joined a team and programmed tirelessly, honing skills for the field. Soon, :he/she: got the chance to compete in a Hackathon tournament. The story of :inserty: became an inspiration for aspiring Software Developers worldwide, reminding everyone that with dedication and passion, dreams can be achieved."
   
-  var insertX = ["boy", "girl", "child"];
-  var insertY = ["Sparky", "Mittens", "Squeak"];
-  var insertZ = ["silly", "lazy", "curious"];
+  var insertX = ["boy", "girl", "lad"];
+  var insertY = ["Vincent", "Sherifat", "Nkem"];
+  var insertZ = ["high", "great", "curious"];
   var genderPronouns = ["he", "she"];
   
   function result() {
